@@ -90,5 +90,3 @@ saved_frame/: Detected frames will be automatically saved here.
 
 ---
 
-## 📸 Example Output
-
