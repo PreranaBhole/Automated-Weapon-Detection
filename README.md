@@ -17,6 +17,8 @@ This repository contains a real-time **Automated Weapon Detection System** using
 ---
 
 ## 🗂️ Project Structure
+
+```text
 ├── UI/ # GUI assets (icons, styles, etc.)
 ├── cfg/ # Config files (e.g., thresholds, user data)
 ├── saved_frame/ # Saved screenshots with detections
@@ -48,14 +50,16 @@ cd Automated-Weapon-Detection
 
 ### 2. Create a virtual environment (optional)
 
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 ---
 
 ### 3. Install dependencies
+```
 pip install -r requirements.txt
-
+```
 ---
 ### 4. Download and add your YOLOv8 model
 Place your trained YOLOv8 .pt file (e.g., best.pt) into the weights/ folder.
