@@ -19,22 +19,22 @@ This repository contains a real-time **Automated Weapon Detection System** using
 ## 🗂️ Project Structure
 
 ```text
-├── UI/ # GUI assets (icons, styles, etc.)
-├── cfg/ # Config files (e.g., thresholds, user data)
-├── saved_frame/ # Saved screenshots with detections
-├── weights/ # YOLOv8 trained weights (.pt file)
-├── pycache/ # Auto-generated Python cache files
-├── detection.py # Core detection logic using YOLOv8
-├── detection_window.py # GUI window for live detection
-├── login_window.py # User login interface
-├── main.py # Entry point to launch the app
-├── settings_window.py # GUI for configuring settings
-├── obj.names # List of class labels (e.g., pistol, knife)
-├── tempCodeRunnerFile.py # Temporary dev file (can be ignored)
-├── requirements.txt # Python dependencies
-├── .gitignore # Git ignore rules
-└── README.md # Project documentation
-
+├── UI/                  # GUI assets (icons, styles, etc.)
+├── cfg/                 # Config files (e.g., thresholds, user data)
+├── saved_frame/         # Saved screenshots with detections
+├── weights/             # YOLOv8 trained weights (.pt file)
+├── pycache/             # Auto-generated Python cache files
+├── detection.py         # Core detection logic using YOLOv8
+├── detection_window.py  # GUI window for live detection
+├── login_window.py      # User login interface
+├── main.py              # Entry point to launch the app
+├── settings_window.py   # GUI for configuring settings
+├── obj.names            # List of class labels (e.g., pistol, knife)
+├── tempCodeRunnerFile.py# Temporary dev file (can be ignored)
+├── requirements.txt     # Python dependencies
+├── .gitignore           # Git ignore rules
+└── README.md            # Project documentation
+```
 
 ---
 
